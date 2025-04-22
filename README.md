@@ -1,7 +1,6 @@
 # U-Net for Image Segmentation
 
-This repository provides an easy-to-understand guide to the U-Net architecture, a powerful tool for image segmentation tasks. U-Net is widely used in biomedical imaging and other fields where precise segmentation of objects within images is crucial. This README will walk you through the core concepts and components of U-Net using simple explanations and visual examples.
-
+This repository provides an easy-to-understand guide to the U-Net architecture, a powerful tool for image segmentation tasks. U-Net is widely used in biomedical imaging and other fields where precise segmentation of objects within images is crucial.
 ![Image](https://github.com/user-attachments/assets/6b7a0486-2977-46d0-8787-eb899cf2b4d3)
 
 ## Table of Contents
