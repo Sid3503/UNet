@@ -13,13 +13,17 @@ This repository provides an easy-to-understand guide to the U-Net architecture, 
 5. [Results](#results)
 6. [Visualizing Results](#visualizing-results)
 
-## Introduction to Image Segmentation <a name="introduction"></a>
+## Introduction to Image Segmentation
 
 Image segmentation is the process of dividing an image into segments or regions that correspond to different objects or parts of objects. Unlike classification, which assigns a label to an entire image, segmentation assigns a label to every pixel in the image. This is particularly useful in medical imaging, where identifying specific tissues or anomalies is essential.
+
+![Image](https://github.com/user-attachments/assets/4f3c76f0-dddd-448f-b407-edc18353577d)
 
 ## Understanding U-Net Architecture
 
 U-Net is named for its U-shaped architecture, which consists of a contracting path (encoder) and an expansive path (decoder). The architecture allows the network to capture context and spatial information effectively.
+
+![Image](https://github.com/user-attachments/assets/61eac877-1993-4ec2-93ac-0593e4262325)
 
 ### Why U-Net?
 
@@ -65,10 +69,11 @@ Imagine you have an image of a cell, and you want to segment the nucleus:
 
 ## Results
 
-After 50 epochs of training:
-- **Training Accuracy**: ~75%.
-- **Validation Accuracy**: ~73%.
-- **Test Accuracy**: ~72.7%.
+| Metric       | Value |
+|--------------|-------|
+| Training Acc | 75%   |
+| Validation   | 73%   |
+| Test         | 72.7% |
 
 ## Visualizing Results
 
@@ -81,8 +86,8 @@ U-Net is a powerful tool for image segmentation, particularly in fields where pr
 
 ## Acknowledgments
 
-- The U-Net architecture was originally proposed by Ronneberger et al. (2015).
-- The Oxford-IIIT Pet dataset is used for training and evaluation in the accompanying notebook.
+- The [U-Net architecture](https://arxiv.org/abs/1505.04597) was originally proposed by Ronneberger et al. (2015).
+- The [Oxford-IIIT Pet dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) is used for training and evaluation in the accompanying notebook.
 
 ## 👤 Author
 
